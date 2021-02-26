@@ -16,4 +16,4 @@ int main()
 ```
 ![https://ppt.cc/fXsTxx]
 
-##第二題
+## 第二題 因數個數
