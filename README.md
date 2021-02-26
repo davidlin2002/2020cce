@@ -14,6 +14,5 @@ int main()
 	printf("%d=50*%d+5*%d+1*%d\n",a,b,c,d);
 }
 ```
-![https://ppt.cc/fXsTxx]
 
 ## 第二題 因數個數
