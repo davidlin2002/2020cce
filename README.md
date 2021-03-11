@@ -141,84 +141,80 @@ int main(void)
 ## 第八題 漸增數列相加
 ```c
 #include <stdio.h>
-int MYPOWER (int a,int b)
+int main()
 {
-	int ans=1;
-	for(int i=b;i>=1;i--){
-		ans=ans*a;
+	int a, ans=0;
+	scanf("%d",&a);
+	for(int i=a;i>=1;i--){
+		ans=(i-1)*i+ans;
+
 		}
-		return ans;
-	}
-
-
-int main(void)
-{
-	int a,b;
-	scanf("%d%d",&a,&b);
-	printf("[%d]",MYPOWER(a,b));
-	return 0;
+	
+	printf("%d\n",ans);
 }
 ```
 ## 第九題 判別正方形 
 ```c
 #include <stdio.h>
-int MYPOWER (int a,int b)
+int main()
 {
-	int ans=1;
-	for(int i=b;i>=1;i--){
-		ans=ans*a;
-		}
-		return ans;
-	}
-
-
-int main(void)
-{
+	printf("Enter two numbers:  ");
 	int a,b;
-	scanf("%d%d",&a,&b);
-	printf("[%d]",MYPOWER(a,b));
-	return 0;
+	scanf("%d%d",&a ,&b);
+	if(a==b) printf("It is a square ");
+	else printf("It is not a square ");
 }
 ```
 ## 第十題 2進位轉10進位 
 ```c
 #include <stdio.h>
-int MYPOWER (int a,int b)
+int main()
 {
-	int ans=1;
-	for(int i=b;i>=1;i--){
-		ans=ans*a;
-		}
-		return ans;
-	}
-
-
-int main(void)
-{
-	int a,b;
-	scanf("%d%d",&a,&b);
-	printf("[%d]",MYPOWER(a,b));
-	return 0;
+	int n;
+	scanf("%d",&n);
+	int ans=0;
+	ans=(n%10)*1;
+	n=n/10;
+	ans=(n%10)*2+ans;
+	n=n/10;
+	ans=(n%10)*4+ans;
+	n=n/10;
+	ans=(n%10)*8+ans;
+	n=n/10;
+	printf("%d\n",ans);
 }
+
 ```
 ## 第十一題 均標與前標計算
 ```c
 #include <stdio.h>
-int MYPOWER (int a,int b)
+int main()
 {
-	int ans=1;
-	for(int i=b;i>=1;i--){
-		ans=ans*a;
+	int N;
+	scanf("%d",&N);
+	
+	int sum=0;
+	int a[1000];
+	for(int i=0;i<N;i++){
+		scanf("%d",&a[i]);
+		sum+=a[i];
 		}
-		return ans;
-	}
-
-
-int main(void)
-{
-	int a,b;
-	scanf("%d%d",&a,&b);
-	printf("[%d]",MYPOWER(a,b));
-	return 0;
+	float average;
+	average=(float)sum/N;
+	float r=0;
+	float sumTop=0;
+	for(int i=0;i<N;i++){
+		if(a[i]>=average){
+			sumTop+=a[i];
+			r++;
+			}
+		}
+	float averageTop;
+	averageTop=(float)sumTop/r;
+	printf("均標:%.1f\n",average);
+	printf("前標:%.1f\n",averageTop);
 }
+	
+
+
 ```
