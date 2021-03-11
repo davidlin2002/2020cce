@@ -116,4 +116,109 @@ int main()
 	}
 	printf("\n");
 }
+```
+## 第七題 A的B次方函數
+```c
+#include <stdio.h>
+int MYPOWER (int a,int b)
+{
+	int ans=1;
+	for(int i=b;i>=1;i--){
+		ans=ans*a;
+		}
+		return ans;
+	}
 
+
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
+## 第八題 漸增數列相加
+```c
+#include <stdio.h>
+int MYPOWER (int a,int b)
+{
+	int ans=1;
+	for(int i=b;i>=1;i--){
+		ans=ans*a;
+		}
+		return ans;
+	}
+
+
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
+## 第九題 判別正方形 
+```c
+#include <stdio.h>
+int MYPOWER (int a,int b)
+{
+	int ans=1;
+	for(int i=b;i>=1;i--){
+		ans=ans*a;
+		}
+		return ans;
+	}
+
+
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
+## 第十題 2進位轉10進位 
+```c
+#include <stdio.h>
+int MYPOWER (int a,int b)
+{
+	int ans=1;
+	for(int i=b;i>=1;i--){
+		ans=ans*a;
+		}
+		return ans;
+	}
+
+
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
+## 第十一題 均標與前標計算
+```c
+#include <stdio.h>
+int MYPOWER (int a,int b)
+{
+	int ans=1;
+	for(int i=b;i>=1;i--){
+		ans=ans*a;
+		}
+		return ans;
+	}
+
+
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
