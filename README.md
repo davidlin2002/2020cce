@@ -294,3 +294,15 @@ int main(){
 
 }
 ```
+## 第十六題 week4-1
+```c
+#include <stdio.h>
+struct POINT {
+
+    float x,y;
+};
+int main()
+{
+    struct POINT a;
+}
+```
