@@ -22,8 +22,8 @@ int main()
 		}
 	float averageTop;
 	averageTop=(float)sumTop/r;
-	printf("§¡¼Ğ:%.1f\n",average);
-	printf("«e¼Ğ:%.1f\n",averageTop);
+	printf("Â§Â¡Â¼Ã:%.1f\n",average);
+	printf("Â«eÂ¼Ã:%.1f\n",averageTop);
 }
 
 
