@@ -11,13 +11,13 @@ int main()
     int*p=&a[2];
     *p=222;
         printAll();
-        printf("p¤ß²zªº¤p¯È±ø°Oªº­È¬O:%d\n",p);
+        printf("på¿ƒç†çš„å°ç´™æ¢è¨˜çš„å€¼æ˜¯:%d\n",p);
     p=p+2;
     *p=666;
         printAll();
-        printf("p¤ß²zªº¤p¯È±ø°Oªº­È¬O:%d\n",p);
+        printf("på¿ƒç†çš„å°ç´™æ¢è¨˜çš„å€¼æ˜¯:%d\n",p);
     p--;
     *p=555;
         printAll();
-        printf("p¤ß²zªº¤p¯È±ø°Oªº­È¬O:%d\n",p);
+        printf("på¿ƒç†çš„å°ç´™æ¢è¨˜çš„å€¼æ˜¯:%d\n",p);
 }
