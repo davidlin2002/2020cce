@@ -10,7 +10,7 @@ int main()
         char line3[]="majority";
         printf("%s\n",line3);
         char line4[]={'m','a','j','o','r','i','t','y'};
-        printf("�A�ݬݧA�ݬݡA�{�b�L�X�Ӫ�line4: ==%s==\n",line4);
+        printf("你看看你看看，現在印出來的line4: ==%s==\n",line4);
 
 
 }
