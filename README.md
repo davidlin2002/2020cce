@@ -426,3 +426,27 @@ int main()
         }
 }
 ```
+## 第二十四題 week5-4
+```c
+#include <stdio.h>
+int main()
+{
+    printf("請看看值是多少: %d", '\0');
+}
+```
+## 第二十五題 week5-5
+```c
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char line[10]="majority";
+    char line2[10]="ask";
+    if( strcmp(line,line2)>0){
+        printf("左邊大\n");
+    }else{
+        printf("右邊大\n");
+    }
+}
+```
+
