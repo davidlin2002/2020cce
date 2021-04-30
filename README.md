@@ -507,7 +507,7 @@ int main()
 		}
 }
 ```
-## 第二十七題 week10-1
+## 第二十八題 week10-1
 ```c
 #include <stdio.h>
 #include <stdlib.h>
